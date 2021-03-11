@@ -1,6 +1,6 @@
 function sum(arr){
     var rtn = 0
-    for(var i=0;i<arr.length;i++){
+    for(var i=0;i<arr.lenght;i++){
         rtn += arr[i]
     }
     return rtn
