@@ -4,10 +4,11 @@ function getMinPos(arr) {
     if (arr[i] < arr[minPos]) {
       minPos = i;
     }
-  return minPos;
   }
+  return minPos;
 }
 function sort(arr) {
+  debugger
   var rtn = [];
   while (arr.length > 0) {
     var minPos = getMinPos(arr);
